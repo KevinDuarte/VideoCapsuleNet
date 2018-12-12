@@ -15,7 +15,7 @@ To run this code, you need to do the following:
 a) Extract the frames from each video (downsized to 160x120), and store them as .jpeg files, with the names "frame_K.jpg" where K is the frame number, from 0 to T-1. The path to the frames should be: <code>[dataset_dir]/UCF101_Frames/[Video Name]/frame_K.jpg</code>.
 2. Download the trainAnnot.mat and testAnnot.mat Annotations from https://github.com/gurkirt/corrected-UCF101-Annots and the path to the annotations should be <code>[dataset_dir]/UCF101_Annotations/*.mat</code>
 
-## Training and Testing the Model
+## Training the Model
 
 Once the data is set up you can train (and test) the network by calling <code>python3 caps_main.py</code>.
 
@@ -32,3 +32,7 @@ An example of this is found in <code>output2.txt</code>. These are not the same 
 ## Saved Weights
 
 As the network is trained, the best weights are being saved to the network_saves folder. The weights for the network trained on UCF-101 can be found [here](https://drive.google.com/file/d/1irmiwT9Mt-y5Yr5Kcv5hk8nFizH6N5nL/view?usp=sharing). Unzip the file and place the three .ckpt files in the network_saves folder. These weights correspond the the results found in <code>output2.txt</code>.
+
+## Testing the Model
+
+If you just want to test the model using the weights above, uncomment <code>#iou()</code> at the bottom of the <code>get_iou.py</code> file, and run <code>python3 get_iou.py</code>.
