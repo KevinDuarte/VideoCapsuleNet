@@ -31,4 +31,4 @@ An example of this is found in <code>output2.txt</code>. These are not the same 
 
 ## Saved Weights
 
-As the network is trained, the best weights are being saved to the network_saves folder. The weights for the network trained on UCF-101 can be found here: [placeholder] . These weights correspond the the results found in <output2.txt>.
+As the network is trained, the best weights are being saved to the network_saves folder. The weights for the network trained on UCF-101 can be found here: [placeholder] . These weights correspond the the results found in <code>output2.txt</code>.
