@@ -27,3 +27,8 @@ The <code>config.py</code> file contains several hyper-parameters which are usef
 
 During training and testing, metrics are printed to stdout as well as an output*.txt file. During training/validation, the losses and accuracies are printed out. At test time, the accuracy, f-mAP and v-mAP scores (for many IoU thresholds), and f-AP@IoU=0.5 and v-AP@IoU=0.5 for each class, are printed out.
 
+An example of this is found in <code>output2.txt</code>. These are not the same results as those found in the paper (since cleaning the code led to different variable names, so using the same weights would be difficult to transfer) but they are comparable.
+
+## Saved Weights
+
+As the network is trained, the best weights are being saved to the network_saves folder. The weights for the network trained on UCF-101 can be found here: [placeholder] . These weights correspond the the results found in <output2.txt>.
