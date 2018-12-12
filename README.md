@@ -12,7 +12,7 @@ We have supplied the code for training and testing the model on the UCF-101 data
 
 To run this code, you need to do the following:
 1. Download the UCF-101 dataset at http://crcv.ucf.edu/data/UCF101.php 
-a) Extract the frames from each video (downsized to 160x120), and store them as .jpeg files, with the names "frame_K.jpg" where K is the frame number, from 0 to T-1. The path to the frames should be: <code>[dataset_dir]/UCF101_Frames/[Video Name]/frame_K.jpg</code>.
+    - Extract the frames from each video (downsized to 160x120), and store them as .jpeg files, with the names "frame_K.jpg" where K is the frame number, from 0 to T-1. The path to the frames should be: <code>[dataset_dir]/UCF101_Frames/[Video Name]/frame_K.jpg</code>.
 2. Download the trainAnnot.mat and testAnnot.mat Annotations from https://github.com/gurkirt/corrected-UCF101-Annots and the path to the annotations should be <code>[dataset_dir]/UCF101_Annotations/*.mat</code>
 
 ## Training the Model
