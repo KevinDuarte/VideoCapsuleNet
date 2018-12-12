@@ -21,7 +21,9 @@ Once the data is set up you can train (and test) the network by calling <code>py
 
 To get similar results found in the paper, the pretrained C3D weights are needed (see <code>readme.txt</code>) in the pretrained_weights folder.
 
+The <code>config.py</code> file contains several hyper-parameters which are useful for training the network. 
 
+## Output File
 
-
+During training and testing, metrics are printed to stdout as well as an output*.txt file. During training/validation, the losses and accuracies are printed out. At test time, the accuracy, f-mAP and v-mAP scores (for many IoU thresholds), and f-AP@IoU=0.5 and v-AP@IoU=0.5 for each class, are printed out.
 
