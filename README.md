@@ -32,3 +32,6 @@ An example of this is found in <code>output2.txt</code>. These are not the same 
 ## Saved Weights
 
 As the network is trained, the best weights are being saved to the network_saves folder. The weights for the network trained on UCF-101 can be found [here](https://drive.google.com/file/d/1irmiwT9Mt-y5Yr5Kcv5hk8nFizH6N5nL/view?usp=sharing). Unzip the file and place the three .ckpt files in the network_saves folder. These weights correspond the the results found in <code>output2.txt</code>.
+
+## Testing the Model
+If you just want to test the model using the weights above, uncomment <code>#iou()</code> at the bottom of the <code>get_iou.py</code> file, and <code>run python3 get_iou.py</code>.
