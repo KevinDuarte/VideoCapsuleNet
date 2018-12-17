@@ -34,4 +34,16 @@ An example of this is found in <code>output2.txt</code>. These are not the same 
 As the network is trained, the best weights are being saved to the network_saves folder. The weights for the network trained on UCF-101 can be found [here](https://drive.google.com/file/d/1irmiwT9Mt-y5Yr5Kcv5hk8nFizH6N5nL/view?usp=sharing). Unzip the file and place the three .ckpt files in the network_saves folder. These weights correspond the the results found in <code>output2.txt</code>.
 
 ## Testing the Model
+
 If you just want to test the model using the weights above, uncomment <code>#iou()</code> at the bottom of the <code>get_iou.py</code> file, and <code>run python3 get_iou.py</code>.
+
+## Inference
+
+If you just want to obtain the segmentation for a single video, you can use <code>inference.py</code>. An example video from UCF-101 is given.
+
+<video src="v_Biking_g01_c03.avi" width="320" height="240" controls preload></video>
+
+Running <code>inference.py</code> saves the cropped video (first resized to HxW=120x160 and cropped to HxW=112x112) as well as the segmented video.
+
+<video src="cropped_vid.avi" width="112" height="112" controls preload></video>
+<video src="segmented_vid.avi" width="112" height="112" controls preload></video>
