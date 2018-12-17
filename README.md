@@ -39,4 +39,11 @@ If you just want to test the model using the weights above, uncomment <code>#iou
 
 ## Inference
 
-If you just want to obtain the segmentation for a single video, you can use <code>inference.py</code>. An example video from UCF-101 is given. Running <code>inference.py</code> saves the cropped video (first resized to HxW=120x160 and cropped to HxW=112x112) as well as the segmented video: <code>cropped_vid.avi</code> and <code>segmented_vid.avi</code> respectively.
+If you just want to obtain the segmentation for a single video, you can use <code>inference.py</code>. An example video from UCF-101 is given. 
+
+![Error occured Loading gif](https://github.com/KevinDuarte/VideoCapsuleNet/blob/master/video_files/v_Biking_g01_c03.gif)
+
+Running <code>inference.py</code> saves the cropped video (first resized to HxW=120x160 and cropped to HxW=112x112) as well as the segmented video: <code>cropped_vid.avi</code> and <code>segmented_vid.avi</code> respectively.
+
+![Error occured Loading gif](https://github.com/KevinDuarte/VideoCapsuleNet/blob/master/video_files/cropped_vid.gif)
+![Error occured Loading gif](https://github.com/KevinDuarte/VideoCapsuleNet/blob/master/video_files/segmented_vid.gif)
