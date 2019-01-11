@@ -6,6 +6,13 @@ The paper can be found here: http://papers.nips.cc/paper/7988-videocapsulenet-a-
 
 The network is implemented using TensorFlow.
 
+## Files and their use
+
+1. caps_layers.py: Contains the functions required to construct capsule layers - (primary, convolutional, and fully-connected).
+2. caps_network.py: Contains the VideoCapsuleNet model.
+3. caps_main.py: Contains the main function, which is called to train the network.
+4
+
 ## Data Used
 
 We have supplied the code for training and testing the model on the UCF-101 dataset. The file <code>load_ucf101_data.py</code> creates two DataLoaders - one for training and one for testing. The <code>dataset_dir</code> variable at the top of the file should be set to the base directory which contains the frames and annotations..
