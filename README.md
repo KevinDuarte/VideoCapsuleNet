@@ -11,7 +11,10 @@ The network is implemented using TensorFlow.
 1. caps_layers.py: Contains the functions required to construct capsule layers - (primary, convolutional, and fully-connected).
 2. caps_network.py: Contains the VideoCapsuleNet model.
 3. caps_main.py: Contains the main function, which is called to train the network.
-4
+4. config.py: Contains several different hyperparameters used for the network, training, or inference.
+5. get_iou.py: Contains the function used to evaluate the network.
+6. inference.py: Contains the inference code.
+7. load_ucf101_data.py: Contains the data-generator for UCF-101.
 
 ## Data Used
 
