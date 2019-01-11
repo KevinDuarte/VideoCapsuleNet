@@ -15,6 +15,7 @@ The network is implemented using TensorFlow.
 5. get_iou.py: Contains the function used to evaluate the network.
 6. inference.py: Contains the inference code.
 7. load_ucf101_data.py: Contains the data-generator for UCF-101.
+8. output2.txt: This is a sample output file for training and testing
 
 ## Data Used
 
