@@ -4,7 +4,7 @@ This is the code for the NeurIPS 2018 paper VideoCapsuleNet: A Simplified Networ
 
 The paper can be found here: http://papers.nips.cc/paper/7988-videocapsulenet-a-simplified-network-for-action-detection 
 
-The network is implemented using TensorFlow.
+The network is implemented using TensorFlow 1.4.1.
 
 ## Files and their use
 
