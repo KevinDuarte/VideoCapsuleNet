@@ -6,6 +6,10 @@ The paper can be found here: http://papers.nips.cc/paper/7988-videocapsulenet-a-
 
 The network is implemented using TensorFlow 1.4.1.
 
+## Python Packages Used
+
+numpy, scipy, scikit-video
+
 ## Files and their use
 
 1. caps_layers.py: Contains the functions required to construct capsule layers - (primary, convolutional, and fully-connected).
